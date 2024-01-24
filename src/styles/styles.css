@@ -199,6 +199,11 @@ color: #fff;
     text-decoration: underline;
 }
 
+.lenguages {
+    display: flex;
+    justify-content: center;
+}
+
 .lenguages .lenguages__button {
     background-color: transparent;
     border: 1px solid #878787;
