@@ -6,6 +6,7 @@
 
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -18,13 +19,13 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-color: var(--cor-1);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
-    background: #121212;
+    background: var(--cor-1);
     display: flex;
     border-radius: 8px;
     padding: 0 0 0 5px;
@@ -44,11 +45,10 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: #b3b3b3;
+    color: var(--cor-0);
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
-    font-family: "DM Sans", sans-serif;
     transition: all 0.2s;
 }
 
@@ -62,13 +62,13 @@ color: #fff;
 }
 
 .library {
-    background-color: #121212;
+    background-color: var(--cor-1);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: var(--cor-0);
     font-weight: 600;
     font-size: 16px;
     margin-top: 10px;
@@ -82,12 +82,11 @@ color: #fff;
 .library .library__button {
     display: flex;
     margin-right: 10px;
-    color: #b3b3b3;
+    color: var(--cor-0);
     background-color: transparent;
     border: 0;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -124,8 +123,8 @@ color: #fff;
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
-    color: #b3b3b3;
+    background-color: var(--cor-2);
+    color: var(--cor-0);
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0;
@@ -141,7 +140,6 @@ color: #fff;
 .section__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section__content .title {
@@ -162,7 +160,6 @@ color: #fff;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     padding: 10px;
     margin-top: 12px;
@@ -185,11 +182,10 @@ color: #fff;
 
 .sidebar .cookies {
     margin: 25px 20px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar .cookies a {
-    color: #b3b3b3;
+    color: var(--cor-0);
     font-weight: 500;
     font-size: 12px;
     text-decoration: none;
@@ -206,7 +202,7 @@ color: #fff;
 
 .lenguages .lenguages__button {
     background-color: transparent;
-    border: 1px solid #878787;
+    border: 1px solid var(--cor-0);
     color: #fff;
     font-weight: bold;
     cursor: pointer;
