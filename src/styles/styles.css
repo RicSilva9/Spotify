@@ -214,3 +214,18 @@ color: #fff;
 .lenguages .lenguages__button span {
     cursor: pointer;
 }
+
+.secoes-com-scroll {
+    max-height: 250px;
+    overflow-y: hidden;
+    transition: all 0.2s;
+}
+
+.secoes-com-scroll:hover {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.secoes-com-scroll::-webkit-scrollbar {
+    width: 0px;
+}
