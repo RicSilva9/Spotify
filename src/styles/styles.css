@@ -119,7 +119,7 @@ color: #fff;
     margin-top: 13px;
 }
 
-.section-playlist {
+.section-playlist-e-podcasts {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -133,28 +133,28 @@ color: #fff;
     border-radius: 6px;
 }
 
-.section-playlist .section-playlist__content {
+.section-playlist-e-podcasts .section__content {
     display: flex;
     flex-direction: column;
 }
 
-.section-playlist__content .text {
+.section__content .text {
     padding-bottom: 14px;
     color: #fff;
     font-family: "DM Sans", sans-serif;
 }
 
-.section-playlist__content .title {
+.section__content .title {
    font-weight: 700;
    font-size: 16px;
 }
 
-.section-playlist__content .subtitle {
+.section__content .subtitle {
     font-weight: 500;
     font-size: 14px;
 }
 
-.section-playlist__content .section-playlist__button {
+.section__content .section__button {
     display: flex;
     justify-content: center;
     background-color: #fff;
@@ -167,12 +167,19 @@ color: #fff;
     padding: 10px;
     margin-top: 12px;
     border: 0;
-    width: 113px;
     cursor: pointer;
     transition: all 0.4s;
 }
 
-.section-playlist__content .section-playlist__button:hover {
+.section__content .section-playlist__button {
+    width: 113px;
+}
+
+.section__content .section-podcast__button {
+    width: 150px;
+}
+
+.section__content .section-playlist__button:hover, .section-podcast__button:hover {
     scale: 1.08;
 }
 
