@@ -150,23 +150,18 @@
   .offer__list-item {
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
-    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-bottom: 16px;
-  
-    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
-    display: grid;  /* define o modelo de layout do elemento como uma grade */
-    gap: 16px;
-    grid-gap: 32px;  /* não é usado mais */
+    gap: 8px;
+    grid-gap: 18px;  /* não é usado mais */
     margin: 0 auto;
     padding: 5px;
   }
   
   .cards {
     position: relative; 
-    width: 220px;
-    height: 200px;
+    width: 180px;
+    height: 190px;
     overflow: hidden;
     border-radius: 8px;
     transition: all 0.5s;
@@ -180,7 +175,7 @@
     padding: 16px;
     position: absolute;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
   }
   
@@ -269,7 +264,7 @@
     padding: 16px;
     position: relative;
     transition: background-color 0.3s ease;
-    width: 100%;
+    width: 200px;
   }
   
   .artist-card:hover {
@@ -306,6 +301,9 @@
     display: inline-block;
     max-width: 100%;
     vertical-align: middle;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
   }
   
   .artist-name {
