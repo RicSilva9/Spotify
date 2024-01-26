@@ -10,6 +10,10 @@ body {
     overflow: hidden;
 }
 
+ul, ol {
+    list-style: none;
+}
+
 .sidebar {
     position: fixed;
     top: 0;
