@@ -3,10 +3,16 @@ const playlistContainer = document.getElementById("result-playlists");
 const searchInput = document.getElementById("search-input");
 
 function requestApi(searchTerm) {
-  fetch(`http://localhost:3000/artists?name_like=${searchTerm}`)
+  fetch(`http://localhost:3000/artists`)
     .then((response) => response.json())
-    .then((results) => displayResults(results));
+    .then((results) => {
+      const filtered = results.filter((a) =>
+        a.name.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+      displayResults(filtered)
+    })
 }
+
 
 function displayResults(results) {
   hidePlaylists();
