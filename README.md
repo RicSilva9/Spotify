@@ -4,7 +4,7 @@
 O Spotify Clone é um projeto desenvolvido durante a Imersão Dev da Alura, com o objetivo de recriar a interface e algumas funcionalidades básicas do Spotify. O foco principal foi a manipulação visual e a construção da estrutura do projeto, além do consumo de uma API disponibilizada pela própria Alura para rodar em localhost.
 
 
-## Stacks utilizadas
+## Stack utilizada
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
